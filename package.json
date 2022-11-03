@@ -1,0 +1,23 @@
+{
+  "name": "ueberinfo",
+  "version": "1.0.0",
+  "description": "A system info widget for Ubersicht",
+  "main": "./UeberInfo.widget/index.jsx,",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pseudobear/UeberInfo.git"
+  },
+  "author": "pseudobear",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pseudobear/UeberInfo/issues"
+  },
+  "homepage": "https://github.com/pseudobear/UeberInfo#readme",
+  "dependencies": {
+    "gulp": "^4.0.2",
+    "gulp-zip": "^5.1.0"
+  }
+}
