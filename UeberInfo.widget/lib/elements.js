@@ -32,13 +32,50 @@ export const Wrapper = styled("div")`
   }
 `
 
-export const InfoBarWrapper = styled("div")`
+export const InfoBarSection = styled("div")`
   position: relative;
   top: 0;
   left: 0;
   height: 100%;
   width: 15%;
-  background-color: blue;
+  * background-color: ${theme.color4};
   border-radius: 2px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
 `
 
+const INFO_BAR_WIDTH = "12px";
+
+export const InfoBarWrapper = styled("div")`
+  position: relative;
+  top: 0;
+  left: 0;
+  width: ${INFO_BAR_WIDTH};
+  height: 80%;
+  border-radius: 7px;
+  overflow: hidden;
+  background: ${theme.color7};
+`
+
+export const InfoBar = styled("div")`
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: ${INFO_BAR_WIDTH};
+  height: 80%;
+  border-radius: 8px;
+
+  &::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    border-radius: 8px;
+    background: ${theme.color3};
+    transition: width .6s cubic-bezier(0.22, 1, 0.36, 1);
+  }
+`

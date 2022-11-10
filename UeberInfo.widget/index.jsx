@@ -35,11 +35,31 @@ export const className = `
 export const render = (state, dispatch) => {
   return (
 		<Elements.Wrapper>
-      <Elements.InfoBarWrapper></Elements.InfoBarWrapper>
-      <Elements.InfoBarWrapper></Elements.InfoBarWrapper>
-      <Elements.InfoBarWrapper></Elements.InfoBarWrapper>
-      <Elements.InfoBarWrapper></Elements.InfoBarWrapper>
-      <Elements.InfoBarWrapper></Elements.InfoBarWrapper>
+      <Elements.InfoBarSection>
+        <Elements.InfoBarWrapper>
+          <Elements.InfoBar/>
+        </Elements.InfoBarWrapper>
+      </Elements.InfoBarSection>
+      <Elements.InfoBarSection>
+        <Elements.InfoBarWrapper>
+          <Elements.InfoBar/>
+        </Elements.InfoBarWrapper>
+      </Elements.InfoBarSection>
+      <Elements.InfoBarSection>
+        <Elements.InfoBarWrapper>
+          <Elements.InfoBar/>
+        </Elements.InfoBarWrapper>
+      </Elements.InfoBarSection>
+      <Elements.InfoBarSection>
+        <Elements.InfoBarWrapper>
+          <Elements.InfoBar/>
+        </Elements.InfoBarWrapper>
+      </Elements.InfoBarSection>
+      <Elements.InfoBarSection>
+        <Elements.InfoBarWrapper>
+          <Elements.InfoBar/>
+        </Elements.InfoBarWrapper>
+      </Elements.InfoBarSection>
 		</Elements.Wrapper>
   );
 }
