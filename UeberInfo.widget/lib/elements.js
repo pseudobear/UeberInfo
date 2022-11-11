@@ -38,6 +38,7 @@ export const InfoBarSection = styled("div")`
   left: 0;
   height: 100%;
   width: 15%;
+  padding-top: 5px;
   * background-color: ${theme.color4};
   border-radius: 2px;
   display: flex;
@@ -57,6 +58,7 @@ export const InfoBarWrapper = styled("div")`
   border-radius: 7px;
   overflow: hidden;
   background: ${theme.color7};
+  display: flex;
 `
 
 export const InfoBar = styled("div")`
@@ -75,7 +77,7 @@ export const InfoBar = styled("div")`
     bottom: 0;
     width: 100%;
     border-radius: 8px;
-    background: ${theme.color3};
+    background: ${ props => props.color };
     transition: width .6s cubic-bezier(0.22, 1, 0.36, 1);
   }
 `

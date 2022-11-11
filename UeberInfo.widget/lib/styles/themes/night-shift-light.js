@@ -29,6 +29,7 @@ export const theme = {
   color13: "#E9DDD8",
   color14: "#F0D4D0",
   color15: "#e2eeef",
+  color16: "#f8e5bb",
   transparentDark: "rgba(0, 0, 0, 0.05)",
   defaultFont: "JetBrains Mono, Monaco, Menlo, monospace",
   barHeight: "34px",
